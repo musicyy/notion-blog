@@ -2,7 +2,7 @@ import { siteConfig } from './lib/site-config'
 
 export default siteConfig({
   // the site's root Notion page (required)
-  rootNotionPageId: 'bab6709d4d294f20a7268475ac3e0af1',
+  rootNotionPageId: 'Blog-0821facf421743feb41243c4fae4c6cc',
 
   // if you want to restrict pages to a single notion workspace (optional)
   // (this should be a Notion ID; see the docs for how to extract this)
@@ -50,12 +50,12 @@ export default siteConfig({
 
   // whether to use the default notion navigation style or a custom one with links to
   // important pages
-//   navigationStyle: 'default'
-  navigationStyle: 'custom',
-  navigationLinks: [
-    {
-      title: 'About Me',
-      pageId: 'e25c296004f6497b853e8dcfa0d70aa8'
-    }
-  ]
+  navigationStyle: 'default'
+//   navigationStyle: 'custom',
+//   navigationLinks: [
+//     {
+//       title: 'About Me',
+//       pageId: 'e25c296004f6497b853e8dcfa0d70aa8'
+//     }
+//   ]
 })
